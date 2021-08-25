@@ -3,10 +3,7 @@ export type TodolistType = {
     title: string
     filter: string
 }
-// type ActionType = {
-//     type: string
-//     [key: string]: any
-// }
+
 type ActionType = {
     type: string
     [key: string]: any
