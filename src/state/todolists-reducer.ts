@@ -1,12 +1,12 @@
-export type TodolistType = {
-    id: string
-    title: string
-    filter: string
-}
 
 type ActionType = {
     type: string
     [key: string]: any
+}
+export type TodolistType = {
+    id: string
+    title: string
+    filter: string
 }
 
 
